@@ -7,7 +7,7 @@ import 'rxjs/add/observable/throw';
 
 describe('TodosComponent', () => {
   let component: TodosComponent;
-  let service:TodoService;
+  let service: TodoService;
 
   beforeEach(() => {
     service = new TodoService(null);
